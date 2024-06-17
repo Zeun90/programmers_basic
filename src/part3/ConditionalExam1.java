@@ -1,6 +1,6 @@
 package part3;
 
-public class ConditionalExam {
+public class ConditionalExam1 {
     public static void main(String[] argv) {
         int value =12;
                 ;
