@@ -1,7 +1,7 @@
 package part3;
 
 import java.util.Calendar;
-public class SwitchExam1 {
+public class SwitchExam {
     public static void main(String[] args) {
         // month에는 오늘이 몇 월인지 들어 있습니다.
         int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
