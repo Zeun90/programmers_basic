@@ -1,6 +1,6 @@
 package part2;
 
-public class OperatorExam {
+public class ArithmeticOperatorExam {
     public int[] calculate() {
         int a = 7;
         int b = 3;
@@ -15,7 +15,7 @@ public class OperatorExam {
         int e = a * b;
 
         //f는 a를 b로 나눈 나머지
-        int f = a / b;
+        int f = a % b;
 
 
         System.out.printf("c는: %d\n", c);
@@ -28,6 +28,6 @@ public class OperatorExam {
     }
 
     public static void main(String []args){
-        new OperatorExam().calculate();
+        new ArithmeticOperatorExam().calculate();
     }
 }
