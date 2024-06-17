@@ -1,6 +1,6 @@
 package part4;
 
-public class ArrayExam {
+public class ArrayExam1 {
     public int[] makeArray() {
         // 길이가 5인 정수형 배열 array를 만들어보세요.
         // array의 원소는 차례로 1, 2, 3, 4, 5 여야합니다.
@@ -12,7 +12,7 @@ public class ArrayExam {
 
     //아래는 실행을 위한 코드입니다. 수정하지 마세요.
     public static void main(String[]args) {
-        ArrayExam exam = new ArrayExam();
+        ArrayExam1 exam = new ArrayExam1();
         int [] array = exam.makeArray();
         if(array.length==5 &&
                 array[0] ==1 &&
